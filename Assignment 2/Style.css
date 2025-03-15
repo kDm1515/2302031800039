@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8F5E9;
+    color: #2E2E2E;
+    text-align: center;
+}
+
+header {
+    background: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+button {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.image-placeholder {
+    background-color: #C5E1A5;
+}
+
+.large {
+    width: 200px;
+    height: 250px;
+}
+
+.small-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small {
+    width: 100px;
+    height: 80px;
+}
+
+.purpose {
+    background-color: #DCE775;
+    padding: 30px;
+}
+
+.highlight {
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+.benefits {
+    background-color: #33691E;
+    color: white;
+    padding: 40px 20px;
+}
+
+.benefit-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit-item {
+    background: #81C784;
+    padding: 15px;
+    border-radius: 5px;
+    min-width: 180px;
+}
+
+.how-it-works {
+    padding: 30px;
+}
+
+.wide {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.features {
+    background-color: #F1F8E9;
+    padding: 30px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background: #AED581;
+    padding: 15px;
+    border-radius: 5px;
+    min-width: 180px;
+}
+
+.testimonial {
+    padding: 30px;
+}
+
+.medium {
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.contact {
+    background-color: #A5D6A7;
+    padding: 30px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
